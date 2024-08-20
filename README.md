@@ -47,4 +47,4 @@ Here's how you can get this project up and running on your local machine:
    npm run dev
    ```
 
-6. Navigate to the live app at [http://localhost:5173/](http://localhost:5173/)
+6. Open [localhost:5173](http://localhost:5173) in your browser to see your updates live with hot reloads.
