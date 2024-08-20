@@ -1,4 +1,4 @@
-# Building and Testing an OTP UI Component with React, TypeScript, React Hook Form, Zod, and Jest
+# Building and Testing an OTP UI Component with React and TypeScript
 
 ## Table of Contents
 
