@@ -35,13 +35,16 @@ Here's how you can get this project up and running on your local machine:
    git clone https://github.com/internetdrew/otp-react-ts-jest-aws.git .
    ```
 
-4. Install all deps:
+4. Install dependencies:
 
    ```sh
    npm install
    ```
 
 5. Run the development server:
+
    ```sh
    npm run dev
    ```
+
+6. Navigate to the live app at [http://localhost:5173/](http://localhost:5173/)
