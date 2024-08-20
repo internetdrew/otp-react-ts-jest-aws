@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+# Building and Testing an OTP UI Component with React, TypeScript, React Hook Form, Zod, and Jest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [What You'll Learn](#what-youll-learn)
+- [Installation](#installation)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What You'll Learn
 
-## Expanding the ESLint configuration
+- The basics of building a One-Time Password (OTP) UI Component with React and TypeScript.
+- How to leverage React Hook Form and Zod for front-end UI validation.
+- How to use Jest to test user interactions with your component.
+- **Bonus:** How to mock AWS Amplify API calls.
+  - While this is not necessary, I built this original component while leveraging AWS Amplify, and testing/mocking it has very little documentation.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+Here's how you can get this project up and running on your local machine:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Create your directory:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+   ```sh
+   mkdir otp-react-ts
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. Change to your directory:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   ```sh
+   cd otp-react-ts
+   ```
+
+3. Clone the repo:
+
+   ```sh
+   git clone https://github.com/internetdrew/otp-react-ts-jest-aws.git .
+   ```
+
+4. Install all deps:
+
+   ```sh
+   npm install
+   ```
+
+5. Run the development server:
+   ```sh
+   npm run dev
+   ```
