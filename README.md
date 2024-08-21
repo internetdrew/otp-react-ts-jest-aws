@@ -5,6 +5,11 @@
 - [What You'll Learn](#what-youll-learn)
 - [Installation](#installation)
 
+## Branches
+
+- **starter**: Contains the initial setup and minimal code to get started.
+- **final**: Contains the completed code after following the tutorial.
+
 ## What You'll Learn
 
 - The basics of building a One-Time Password (OTP) UI Component with React and TypeScript.
