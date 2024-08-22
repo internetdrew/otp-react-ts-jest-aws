@@ -1,5 +1,7 @@
 # Building and Testing an OTP UI Component with React and TypeScript
 
+![screenshot](./public/screenshot.png)
+
 ## Table of Contents
 
 - [What You'll Learn](#what-youll-learn)
@@ -13,10 +15,8 @@
 ## What You'll Learn
 
 - The basics of building a One-Time Password (OTP) UI Component with React and TypeScript.
-- How to leverage React Hook Form and Zod for front-end UI validation.
+- How to leverage React Hook Form and Zod for front-end validation.
 - How to use Jest to test user interactions with your component.
-- **Bonus:** How to mock AWS Amplify API calls.
-  - While this is not necessary, I built this original component while leveraging AWS Amplify, and testing/mocking it has very little documentation.
 
 ## Installation
 
