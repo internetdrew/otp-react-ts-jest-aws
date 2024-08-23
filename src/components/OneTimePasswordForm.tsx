@@ -2,8 +2,9 @@ import { useEffect, useRef } from 'react';
 import { z } from 'zod';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
+import toast from 'react-hot-toast';
 
-type OtpFormInputs = {
+export type OtpFormInputs = {
   otp: string[];
 };
 
@@ -17,7 +18,8 @@ const OneTimePasswordForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    reset,
+    formState: { errors, isSubmitSuccessful },
   } = useForm<OtpFormInputs>({
     resolver: zodResolver(schema),
   });
@@ -37,14 +39,17 @@ const OneTimePasswordForm = () => {
   };
 
   const onSubmit: SubmitHandler<OtpFormInputs> = data => {
-    console.log(data);
     const code = data.otp.join('');
-    console.log('Send this code to your API: ', code);
+    toast.success(`Entered code: ${code}`);
   };
 
   useEffect(() => {
     inputRefs?.current[0].focus();
   }, []);
+
+  useEffect(() => {
+    reset();
+  }, [reset, isSubmitSuccessful]);
 
   return (
     <form
