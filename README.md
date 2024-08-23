@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [What You'll Learn](#what-youll-learn)
+- [What We'll Cover](#what-well-cover)
 - [Installation](#installation)
 - [Having an Issue?](#having-an-issue)
 
