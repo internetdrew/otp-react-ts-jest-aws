@@ -44,35 +44,25 @@ Here's how you can get this project up and running on your local machine:
    git fetch --all
    ```
 
-5. Checkout remote branches
+5. Checkout the branch you want. Not if you want `starter` or `final`? [Find out based on the route you want to take through the post](https://www.internetdrew.com/blog/building-testing-otp-ui-component-react-typescript#getting-started).
 
    ```sh
-   git checkout -b starter origin/starter
+   git checkout -b <branch-name> origin/<branch-name>
    ```
 
-   ```sh
-   git checkout -b final origin/final
-   ```
-
-6. Checkout the branch you want. Not sure which you want? [Find out based on the route you want to take through the post](https://www.internetdrew.com/blog/building-testing-otp-ui-component-react-typescript#getting-started).
-
-   ```sh
-   git checkout <branch-name>
-   ```
-
-7. Install dependencies (you will need to do this for each respective branch):
+6. Once in the desired branch, install dependencies (you will need to do this for each respective branch):
 
    ```sh
    npm i
    ```
 
-8. Run the development server:
+7. Run the development server:
 
    ```sh
    npm run dev
    ```
 
-9. Open [localhost:5173](http://localhost:5173) in your browser to see your updates live with hot reloads.
+8. Open [localhost:5173](http://localhost:5173) in your browser to see your updates live with hot reloads.
 
 ## Having an Issue?
 
