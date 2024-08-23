@@ -54,7 +54,7 @@ Here's how you can get this project up and running on your local machine:
    git checkout -b final origin/final
    ```
 
-6. Check into the branch you want. Not sure which you want? [Find out based on the route you want to take through the post](https://www.internetdrew.com/blog/building-testing-otp-ui-component-react-typescript#getting-started).
+6. Checkout the branch you want. Not sure which you want? [Find out based on the route you want to take through the post](https://www.internetdrew.com/blog/building-testing-otp-ui-component-react-typescript#getting-started).
 
    ```sh
    git checkout <branch-name>
