@@ -1,5 +1,7 @@
 # Building and Testing an OTP UI Component with React and TypeScript
 
+![screenshot](/otp-screenshot.png)
+
 ## Table of Contents
 
 - [What You'll Learn](#what-youll-learn)
@@ -7,8 +9,6 @@
 - [Having an Issue?](#having-an-issue)
 
 ## What We'll Cover
-
-![screenshot](/otp-screenshot.png)
 
 - The basics of building a One-Time Password (OTP) UI Component with React and TypeScript.
 - How to leverage React Hook Form and Zod for front-end UI validation.
